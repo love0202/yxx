@@ -92,15 +92,14 @@ class FileController extends Controller
         if (empty($fileInfo)) {
             dd('数据不存在');
         }
-        $configData  = !empty($fileInfo['configData']) ? json_decode($fileInfo['configData'], true) : [];
+        $configData  = !empty($fileInfo['dataJSON']) ? json_decode($fileInfo['dataJSON'], true) : [];
         $excelRowNum = (isset($configData['excelRowNum']) && !empty($configData['excelRowNum'])) ? $configData['excelRowNum'] : 0;
         $excelTitle  = (isset($configData['excelTitle']) && !empty($configData['excelTitle'])) ? $configData['excelTitle'] : $this->getColArr($fileInfo['type']);
 
-        $cacheKey       = 'express_file_excel-title' . date('Ym') . $fileId;
+        $cacheKey       = 'express_file_excel-title' . date('Ymd') . '-' . $fileId;
         $excelTitleData = cache($cacheKey);
         if (empty($excelTitleData)) {
             $excelModel = new YxxExcel();
-            $excelModel->setExcelRowNum(2);
             $excelTitleData = $excelModel->readTitle($fileInfo['order_path']);
             cache($cacheKey, $excelTitleData);
         }
@@ -169,13 +168,13 @@ class FileController extends Controller
             echo json_encode(['success' => 0, 'message' => '数据不存在']);
             die();
         }
-        $configData  = !empty($fileInfo['configData']) ? json_decode($fileInfo['configData'], true) : [];
+        $configData  = !empty($fileInfo['dataJSON']) ? json_decode($fileInfo['dataJSON'], true) : [];
         $excelRowNum = (isset($configData['excelRowNum']) && !empty($configData['excelRowNum'])) ? $configData['excelRowNum'] : 0;
         $excelTitle  = (isset($configData['excelTitle']) && !empty($configData['excelTitle'])) ? $configData['excelTitle'] : $this->getColArr($fileInfo['type']);
 
         // 获取 excel 数据
         $excelModel = new YxxExcel();
-        $excelModel->setExcelRowNum($excelRowNum);
+        $excelModel->setExcelRowNum((int)$excelRowNum);
         $excelModel->setColArr($excelTitle);
         $orderData = $excelModel->read($fileInfo['order_path'], true);
 
