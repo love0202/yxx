@@ -1,5 +1,288 @@
+# -----------------------ohter---------------------------
+127.0.0.1 localhost
+::1 localhost
+::96 localhost
+
+127.0.0.1 genuine.microsoft.com
+127.0.0.1 mpa.one.microsoft.com
+
+# -----------------------phpstorm---------------------------
+0.0.0.0 www.jetbrains.com
+0.0.0.0 account.jetbrains.com
+
+#47.93.67.22 pma-zjyunuat.zhitest.com
+
 # -----------------------work_xw---------------------------
+127.0.0.1 ipbase.test
 # --------yxx-------------
 127.0.0.1 accountv1.yxx.test
 127.0.0.1 accountv2.yxx.test
-127.0.0.1 base.yxx.test
+
+# --------frame------------
+127.0.0.1 thinkphp.frame.test
+127.0.0.1 laravel.frame.test
+127.0.0.1 yii.frame.test
+127.0.0.1 js.frame.test
+
+#---------xiangweicommon---
+127.0.0.1 local.xiangweicommon.com
+
+#---------xiangweisample---
+127.0.0.1 asset.local.xiangweisample.com
+127.0.0.1 api.local.xiangweisample.com
+127.0.0.1 base.local.xiangweisample.com
+
+#------------------------common--------------------------
+127.0.0.1 local.base-asset.com
+127.0.0.1 asset.local.com
+
+#------------------------jianguan-bi--------------------------
+127.0.0.1 jgsx.bi.local.jianguan.com
+
+127.0.0.1 jgcs.bi.local.jianguan.com
+
+127.0.0.1 bi.local.jianguan.com
+127.0.0.1 *.bi.local.jianguan.com
+
+#------------------------jianguan--------------------------
+#--zx--
+127.0.0.1 gz1.zx.company.local.jianguan.com
+127.0.0.1 gz1.zx.local.jianguan.com
+127.0.0.1 jgsx.zx.company.local.jianguan.com
+127.0.0.1 jgsx.zx.local.jianguan.com
+127.0.0.1 hl.zx.company.local.jianguan.com
+127.0.0.1 hl.zx.local.jianguan.com
+
+127.0.0.1 sxxw.local.jianguan.com
+
+#--jndj-defalut--
+127.0.0.1 fj.company.local.jianguan.com
+127.0.0.1 fj.local.jianguan.com
+
+127.0.0.1 gz1.company.local.jianguan.com
+127.0.0.1 gz1.local.jianguan.com
+
+127.0.0.1 jgsx.company.local.jianguan.com
+127.0.0.1 jgsx.local.jianguan.com
+
+127.0.0.1 jgcs.company.local.jianguan.com
+127.0.0.1 jgcs.local.jianguan.com
+
+127.0.0.1 asset.local.jianguan.com
+127.0.0.1 admin.local.jianguan.com
+127.0.0.1 api.local.jianguan.com
+127.0.0.1 company.local.jianguan.com
+127.0.0.1 *.company.local.jianguan.com
+127.0.0.1 local.jianguan.com
+127.0.0.1 *.local.jianguan.com
+
+#------------------------admin-socket------------------------------
+127.0.0.1 admin-socket.local.zyjd.com
+
+#------------------------zyjd-fushe------------------------------
+127.0.0.1 assetfushe.local.zyjd.com
+127.0.0.1 adminfushe.local.zyjd.com
+127.0.0.1 fushe.local.zyjd.com
+
+#------------------------zyjd-face------------------------------
+
+127.0.0.1 jgsx-jndjjg-face-local.zyjd.com
+127.0.0.1 jgsx-jndjjg-facem-local.zyjd.com
+
+127.0.0.1 jgsx-jndj-face-local.zyjd.com
+127.0.0.1 jgsx-jndj-facem-local.zyjd.com
+
+#------------------------zyjd-stats------------------------------
+127.0.0.1 admin-stats.local.zyjd.com
+
+#------------------------zyjd-lianxi------------------------------
+127.0.0.1 jgsx.jndj.lianxi.local.zyjd.com
+127.0.0.1 jgcs.jndj.lianxi.local.zyjd.com
+
+127.0.0.1 sx.lt.lianxi.local.zyjd.com
+127.0.0.1 lianxi-admin.local.zyjd.com
+127.0.0.1 *.lianxi.local.zyjd.com
+
+#------------------------zyjd-jianguan------------------------------
+127.0.0.1 jgsx.jndj.jianguan.local.zyjd.com
+
+127.0.0.1 jgcs.jndj.jianguan.local.zyjd.com
+
+#------------------------zyjd-kp------------------------------
+127.0.0.1 jgsx.jndj.kp.local.zyjd.com
+127.0.0.1 jgsx.jndj.kpo.local.zyjd.com
+
+#------------------------zyjd------------------------------
+
+#--zyjd--
+127.0.0.1 gz.local.zyjd.com
+127.0.0.1 sy.local.zyjd.com
+127.0.0.1 hl.local.zyjd.com
+127.0.0.1 hef.local.zyjd.com
+127.0.0.1 gs.local.zyjd.com
+127.0.0.1 jgsx.local.zyjd.com
+127.0.0.1 sxs.local.zyjd.com
+
+127.0.0.1 api.local.zyjd.com
+
+#--x1--
+127.0.0.1 x1.api.local.zyjd.com
+
+#--jndj--
+127.0.0.1 13.jndj.local.zyjd.com
+127.0.0.1 jgsx.jndj.local.zyjd.com
+127.0.0.1 jgcs.jndj.local.zyjd.com
+127.0.0.1 sxs.jndj.local.zyjd.com
+127.0.0.1 hx.jndj.local.zyjd.com
+
+127.0.0.1 jndj.api.local.zyjd.com
+
+#--hy--
+127.0.0.1 81.hy.local.zyjd.com
+
+#--zy--
+127.0.0.1 56.zy.local.zyjd.com
+
+127.0.0.1 asset.local.zyjd.com
+127.0.0.1 admin.local.zyjd.com
+127.0.0.1 www.local.zyjd.com
+127.0.0.1 *.local.zyjd.com
+
+#------------------------bm------------------------------
+127.0.0.1 jgsx.jndj.local.unify-apply.com
+
+127.0.0.1 jgcs.jndj.local.unify-apply.com
+
+127.0.0.1 local.bm-base-asset.com
+127.0.0.1 jndj.local.unify-apply.com
+127.0.0.1 default.local.unify-apply.com
+127.0.0.1 local.unify-apply.com
+127.0.0.1 *.local.unify-apply.com
+
+#------------------------jingsai------------------------------
+127.0.0.1 fj.jsfj.local.jingsai.com
+127.0.0.1 jsfj.local.jingsai.com
+
+127.0.0.1 jsnew.jsfj.local.jingsai.com
+
+127.0.0.1 sx.jsfj.local.jingsai.com
+127.0.0.1 sx.local.jingsai.com
+
+127.0.0.1 jgsx.tjjs.local.jingsai.com
+127.0.0.1 jgsx.local.jingsai.com
+
+127.0.0.1 jgcs.tjjs.local.jingsai.com
+127.0.0.1 jgcs.local.jingsai.com
+
+127.0.0.1 asset.local.jingsai.com
+127.0.0.1 admin.local.jingsai.com
+127.0.0.1 local.jingsai.com
+127.0.0.1 api.local.jingsai.com
+127.0.0.1 *.local.jingsai.com
+
+#------------------------itembank------------------------------
+127.0.0.1   jgsx.local.itembank.com
+
+127.0.0.1   asset.local.itembank.com
+127.0.0.1   djcs.local.itembank.com
+127.0.0.1   testyj.local.itembank.com
+127.0.0.1   local.itembank.com
+127.0.0.1   local.itemcollection.com
+
+#------------------------itembankgd------------------------------
+#--后台管理端admin--
+127.0.0.1   admin.local.itembankgd.com
+#--门户端mh--
+127.0.0.1   gdts.mh.local.itembankgd.com
+127.0.0.1   testyj.mh.local.itembankgd.com
+127.0.0.1   jgsx.mh.local.itembankgd.com
+127.0.0.1   mh.local.itembankgd.com
+#--中心端zx--
+127.0.0.1   gdts.zx.local.itembankgd.com
+127.0.0.1   testyj.zx.local.itembankgd.com
+127.0.0.1   jgsx.zx.local.itembankgd.com
+127.0.0.1   zx.local.itembankgd.com
+#--中心端org--
+127.0.0.1   gdts.org.local.itembankgd.com
+127.0.0.1   testyj.org.local.itembankgd.com
+127.0.0.1   jgsx.org.local.itembankgd.com
+127.0.0.1   org.local.itembankgd.com
+#--专家端zj--
+127.0.0.1   gdts.zj.local.itembankgd.com
+127.0.0.1   testyj.zj.local.itembankgd.com
+127.0.0.1   jgsx.zj.local.itembankgd.com
+127.0.0.1   zj.local.itembankgd.com
+
+#--题库2.0--
+127.0.0.1   testyj.local.itembankgd.com
+127.0.0.1   jgsx.local.itembankgd.com
+127.0.0.1   asset.local.itembankgd.com
+127.0.0.1   local.itembankgd.com
+
+#------------------------jiankong------------------------------
+127.0.0.1 asset.local.monitor.com
+127.0.0.1 admin.local.monitor.com
+127.0.0.1 client.local.monitor.com
+127.0.0.1 api.local.monitor.com
+127.0.0.1 *.local.monitor.com
+127.0.0.1 activate.navicat.com
+
+#------------------------gxyuanjian------------------------------
+127.0.0.1 asset.local.gxyuanjian.com
+127.0.0.1 api.local.gxyuanjian.com
+127.0.0.1 admin.local.gxyuanjian.com
+
+
+127.0.0.1 hn.org.local.gxyuanjian.com
+127.0.0.1 org.local.gxyuanjian.com
+
+
+
+#-----------------------------------------------------------------------------------------------sichuan-start-----------------------------------------
+
+#------------------------sichuan-jingsai------------------------------
+
+127.0.0.1 sxjg.jsfj.local.sichuan-jingsai.com
+127.0.0.1 sxjg.tjjs.local.sichuan-jingsai.com
+127.0.0.1 sxjg.local.sichuan-jingsai.com
+
+127.0.0.1 asset.local.sichuan-jingsai.com
+127.0.0.1 admin.local.sichuan-jingsai.com
+127.0.0.1 local.sichuan-jingsai.com
+127.0.0.1 api.local.sichuan-jingsai.com
+127.0.0.1 *.local.sichuan-jingsai.com
+#------------------------sichuan-zyjd------------------------------
+
+#--jndj--
+127.0.0.1 sxjg.jndj.local.sichuan-zyjd.com
+127.0.0.1 jndj.api.local.sichuan-zyjd.com
+127.0.0.1 api.local.sichuan-zyjd.com
+
+#----
+127.0.0.1 asset.local.sichuan-zyjd.com
+127.0.0.1 admin.local.sichuan-zyjd.com
+127.0.0.1 www.local.sichuan-zyjd.com
+127.0.0.1 *.local.sichuan-zyjd.com
+
+#------------------------sichuan-jianguan--------------------------
+#--jndj-defalut--
+127.0.0.1 bj.company.local.sichuan-jianguan.com
+127.0.0.1 bj.local.sichuan-jianguan.com
+127.0.0.1 sxjg.company.local.sichuan-jianguan.com
+127.0.0.1 sxjg.local.sichuan-jianguan.com
+
+127.0.0.1 asset.local.sichuan-jianguan.com
+127.0.0.1 admin.local.sichuan-jianguan.com
+127.0.0.1 api.local.sichuan-jianguan.com
+127.0.0.1 company.local.sichuan-jianguan.com
+127.0.0.1 *.company.local.sichuan-jianguan.com
+127.0.0.1 local.sichuan-jianguan.com
+127.0.0.1 *.local.sichuan-jianguan.com
+
+#------------------------sichuan-bm------------------------------
+127.0.0.1 sxjg.jndj.local.sichuan-unify-apply.com
+
+127.0.0.1 asset.local.sichuan-unify-apply.com
+127.0.0.1 local.sichuan-unify-apply.com
+127.0.0.1 *.local.sichuan-unify-apply.com
+#-----------------------------------------------------------------------------------------------sichuan-end-------------------------------------------
